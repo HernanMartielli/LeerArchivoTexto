@@ -36,7 +36,7 @@
             // 
             // btnLeerArchivo
             // 
-            this.btnLeerArchivo.Location = new System.Drawing.Point(122, 73);
+            this.btnLeerArchivo.Location = new System.Drawing.Point(41, 22);
             this.btnLeerArchivo.Name = "btnLeerArchivo";
             this.btnLeerArchivo.Size = new System.Drawing.Size(75, 23);
             this.btnLeerArchivo.TabIndex = 0;
@@ -46,7 +46,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(122, 102);
+            this.textBox1.Location = new System.Drawing.Point(41, 51);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(556, 315);
@@ -54,7 +54,7 @@
             // 
             // btnAppend
             // 
-            this.btnAppend.Location = new System.Drawing.Point(603, 423);
+            this.btnAppend.Location = new System.Drawing.Point(522, 372);
             this.btnAppend.Name = "btnAppend";
             this.btnAppend.Size = new System.Drawing.Size(75, 23);
             this.btnAppend.TabIndex = 2;
@@ -64,7 +64,7 @@
             // 
             // btnNew
             // 
-            this.btnNew.Location = new System.Drawing.Point(122, 423);
+            this.btnNew.Location = new System.Drawing.Point(41, 372);
             this.btnNew.Name = "btnNew";
             this.btnNew.Size = new System.Drawing.Size(75, 23);
             this.btnNew.TabIndex = 3;
@@ -76,8 +76,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.Info;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.Color.DarkOrange;
+            this.ClientSize = new System.Drawing.Size(680, 435);
             this.Controls.Add(this.btnNew);
             this.Controls.Add(this.btnAppend);
             this.Controls.Add(this.textBox1);
